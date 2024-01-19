@@ -8,7 +8,7 @@ import css from './Form.module.css';
 
 
 
-export const FormAddContacts = ({}) => {
+export const FormAddContacts = () => {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
   const dispatch = useDispatch();
